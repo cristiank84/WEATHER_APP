@@ -63,3 +63,20 @@ header {
 .weather-container.show {
   animation: fadeIn 0.5s ease-out forwards;
 }
+body.dark {
+  background: #333;
+  color: white;
+}
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.forecast-day {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
